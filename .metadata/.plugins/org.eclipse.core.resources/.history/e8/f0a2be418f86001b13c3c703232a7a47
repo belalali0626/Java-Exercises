@@ -1,0 +1,35 @@
+package basicPart1;
+
+public class oneToTen {
+	
+public static void main(String[] args) {
+	name();
+	sum(74,36);
+	div(50,3);
+	}
+
+// Question 1
+	private static void name(){
+	System.out.print("Belal Ali");
+	
+	}
+
+// Question 2
+	private static void sum(int a, int b) {
+		int sum = a + b;
+		System.out.println("\n"+"Answer : " + sum);
+		
+	}
+
+// Question 3
+	private static void div (int a, int b) {
+		int div = a / b;
+		System.out.println("\n"+"Answer : " + div);
+		
+	}
+	
+
+	
+	
+	
+}

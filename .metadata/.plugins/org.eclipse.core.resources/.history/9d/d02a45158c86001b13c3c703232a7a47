@@ -1,0 +1,14 @@
+package basicPart1;
+
+public class oneToTen {
+	
+public static void main(String[] args) {
+	name();
+	
+}
+	public static void name(){
+	System.out.print("Belal Ali");
+	
+	
+}
+}

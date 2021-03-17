@@ -1,0 +1,28 @@
+package basicPart1;
+
+public class oneToTen {
+	
+public static void main(String[] args) {
+	name();
+	sum(1,2);
+	}
+
+// Question 1
+	private static void name(){
+	System.out.print("Belal Ali");
+	
+	}
+
+// Question 2
+	private static void sum(int a, int b) {
+	
+		System.out.println(a + "a");
+		
+	}
+	
+	
+	
+	
+	
+	
+}

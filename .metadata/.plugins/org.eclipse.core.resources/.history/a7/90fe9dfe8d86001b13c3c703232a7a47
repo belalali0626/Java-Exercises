@@ -1,0 +1,15 @@
+package basicPart1;
+
+public class oneToTen {
+	
+public static void main(String[] args) {
+	name();
+	
+}
+// Question 1
+	private static void name(){
+	System.out.print("Belal Ali");
+	
+	
+}
+}

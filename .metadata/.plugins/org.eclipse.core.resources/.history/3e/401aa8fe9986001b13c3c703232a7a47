@@ -1,0 +1,47 @@
+package basicPart1;
+
+public class oneToTen {
+	
+public static void main(String[] args) {
+	name();
+	sum(74,36);
+	div(50,3);
+	mixed();
+	}
+
+// Question 1
+	private static void name(){
+	System.out.println("---Question 1 ---");
+	System.out.print("Belal Ali");
+	System.out.print("\n");
+	
+	}
+
+// Question 2
+	private static void sum(int a, int b) {
+		int sum = a + b;
+		System.out.println("---Question 2---");
+		System.out.println("\n"+"Answer : " + sum);
+		
+	}
+
+// Question 3
+	private static void div (int a, int b) {
+		int div = a / b;
+		System.out.println("---Question 3---");
+		System.out.println("Answer : " + div);
+		
+	}
+	
+	// Question 4
+	private static void mixed () {
+		System.out.println("---Question 4---");
+		System.out.println("Answer : " + (-5 + 8) * 6);
+		System.out.println("Answer : " + (55 + 9) % 9);
+		System.out.println("Answer : " + (20 + -3*5 / 8));
+		System.out.println("Answer : " + (5 + 15 / 3 * 2 - 8 % 3));
+		}
+	
+	
+	
+}

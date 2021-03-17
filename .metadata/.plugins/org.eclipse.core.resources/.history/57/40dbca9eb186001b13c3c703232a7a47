@@ -1,0 +1,98 @@
+package basicPart1;
+import java.util.Scanner;
+
+
+public class oneToTen {
+	
+public static void main(String[] args) {
+	name();
+	sum(74,36);
+	div(50,3);
+	mixed();
+	//displayOutput(25,5);
+	//displayOutputv2();
+	multTable();
+	}
+
+// Question 1
+	private static void name(){
+	System.out.println("---Question 1 ---");
+	System.out.print("Belal Ali");
+	System.out.print("\n");
+	
+	}
+
+// Question 2
+	private static void sum(int a, int b) {
+		int sum = a + b;
+		System.out.println("---Question 2---");
+		System.out.println("\n"+"Answer : " + sum);
+		
+	}
+
+// Question 3
+	private static void div (int a, int b) {
+		int div = a / b;
+		System.out.println("---Question 3---");
+		System.out.println("Answer : " + div);
+		
+	}
+	
+	// Question 4
+	private static void mixed () {
+		System.out.println("---Question 4---");
+		System.out.println("Answer : " + (-5 + 8) * 6);
+		System.out.println("Answer : " + (55 + 9) % 9);
+		System.out.println("Answer : " + (20 + -3*5 / 8));
+		System.out.println("Answer : " + (5 + 15 / 3 * 2 - 8 % 3));
+		}
+	
+	// Question 5
+	private static void displayOutput (int a, int b) {
+		System.out.println("---Question 5---");
+		int sum = a * b;
+		System.out.println("25 x 5 = " + (sum));
+		}
+	
+	// Question 5 re-done
+	private static void displayOutputv2 () {
+		System.out.println("---Question 5 Re-done ---");
+	
+		// scanner
+		Scanner dO = new Scanner(System.in);
+		int sum, a, b;
+		System.out.println("Enter first number");
+		a = dO.nextInt();
+		
+		System.out.println("Enter second number");
+		b = dO.nextInt();
+		
+		dO.close();
+		
+		sum = a * b;
+		System.out.println(a + "x" + b + "=" + sum);
+		}
+	
+	// Question 6
+	private static void multTable () {
+		System.out.println("---Question 5 Re-done ---");
+	
+		// scanner
+		Scanner mT = new Scanner(System.in);
+		int a, b;
+		System.out.println("Enter first number");
+		a = mT.nextInt();
+		
+		System.out.println("Enter second number");
+		b = mT.nextInt();
+		
+		mT.close();
+		
+		for(int i = 1; i<= 10; ++i)
+		{
+			System.out.println(a + "x" + b + "=" + i);
+			
+		}
+		
+		}
+}
